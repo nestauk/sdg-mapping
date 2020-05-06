@@ -1,0 +1,1 @@
+{"projects": {"sep": ";", "decimal": ",", "parse_dates": ["startDate", "endDate"]}, "organizations": {"sep": ";", "decimal": ",", "parse_dates": []}}
