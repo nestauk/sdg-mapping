@@ -12,9 +12,12 @@ dependencies:
   - jupyter
   - ipython
   - scikit-learn
+  - descartes
   # Put any conda dependencies here
 
   - pip:
+    - geopandas
+    - shapely
     # Put any pip dependencies here (and no conda ones anywhere below)
 
   # Tooling requirements (don't edit)
