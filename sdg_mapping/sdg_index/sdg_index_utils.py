@@ -14,7 +14,7 @@ def sdg_index_file_path(year):
     fname = f'{year}_sdg_index.xlsx'
     return f'{project_dir}/data/raw/{fname}' #/sdg_index
 
-def fetch_index(year): #, fout=None
+def fetch_sdg_index(year): #, fout=None
     url = None
     if year == 2019:
         url = 'https://github.com/sdsna/2019GlobalIndex/raw/master/2019GlobalIndexResults.xlsx'
