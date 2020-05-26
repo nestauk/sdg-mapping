@@ -9,6 +9,8 @@ from sdg_mapping.utils.misc_utils import camel_to_snake, fetch
 
 logger = logging.getLogger(__name__)
 
+FRAMEWORK_PROGRAMMES = ['fp1', 'fp2', 'fp3', 'fp4', 'fp5', 'fp6', 'fp7', 'h2020']
+
 
 def cordis_file_path(fp_name, resource_name):
     '''cordis_file_path
@@ -48,8 +50,8 @@ def fetch_cordis(fp_name, resource_name, fout=None):
     fetch(url, fout)
 
 
-def parse_cordis(df, list_cols, list_sep, drop_cols):
-    '''parse_cordis
+def parse_cordis_projects(df, list_cols, list_sep, drop_cols):
+    '''parse_cordis_projects
     Parse and clearn raw CORDIS data.
     ''' 
     for col in list_cols:
@@ -60,10 +62,9 @@ def parse_cordis(df, list_cols, list_sep, drop_cols):
     return df
 
 
-def load_cordis(fp_name=None, resource_name=None):
+def load_cordis_projects(fp_name):
     '''load_cordis
-    Load a CORDIS dataset for a particular Framework Programme and entity 
-    such as projects or organizations.
+    Load a datasets of CORDIS projects.
 
     Args:
         fp_name (str): Name of Framework Programme
@@ -72,8 +73,8 @@ def load_cordis(fp_name=None, resource_name=None):
     Returns:
         (pd.DataFrame): Parsed CORDIS data
     '''
+    resource_name = 'projects'
     fin = cordis_file_path(fp_name, resource_name)
-    parse_opts = [fp_name]
     with open(f'{project_dir}/data/aux/cordis_parse_opts.json', 'r') as f:
         parse_opts = json.load(f)[resource_name]
 
@@ -81,7 +82,10 @@ def load_cordis(fp_name=None, resource_name=None):
         read_opts = json.load(f)[resource_name]
     
     df = pd.read_csv(fin, **read_opts)
-    df = parse_cordis(df, **parse_opts)
+    df = parse_cordis_projects(df, **parse_opts)
+
+    if fp_name == 'fp6':
+        df = _parse_fp6_projects(df)
     return df
 
 
@@ -98,6 +102,67 @@ def load_all_cordis_projects(resource_name):
     fps = ['h2020', 'fp7', 'fp6', 'fp5', 'fp4', 'fp3', 'fp2', 'fp1']
     dfs = []
     for fp in fps:
-        dfs.append(load_cordis(fp, resource_name))
+        dfs.append(load_cordis_projects(fp, resource_name))
     return pd.concat(dfs, axis=1)
 
+
+def parse_cordis_sdgs(df, prediction_type):
+    '''parse_cordis_projects
+    Parse and clearn raw CORDIS data.
+
+    Args:
+        df (pd.DataFrame): Raw SDG prediction data.
+        prediction_type (str): One of label, probability or strict_label
+
+    Returns:
+        df (pd.DataFrame): SDG predictions or probabilities with columns as
+            integer goal names. Includes the project RCN.
+    '''
+    if prediction_type == 'label':
+        k = [c for c in df.columns if (c[2:] == 'pred') or (c[3:] == 'pred')]
+    elif prediction_type == 'probability':
+        k = [c for c in df.columns if 'prob' in c]
+    elif prediction_type == 'strict_label':
+        k = [c for c in df.columns if (c[9:] == 'pred') or (c[10:] == 'pred')]
+    df = df.set_index('rcn')[k]
+    df.columns = [int(c.split('_')[0]) for c in df.columns]
+    df = df.reset_index()
+    return df
+
+
+def load_cordis_project_sdgs(fp_name, prediction_type='label'):
+    '''load_cordis_sdgs
+    Load a dataset of SDG labels for CORDIS projects.
+
+    Args:
+        fp_name (str): Name of Framework Programme
+        prediction_type (str): Must be one of:
+            - label - SDG labels based on 0.5 probability threshold. 
+            - probability - SDG classification probabilities.
+            - strict_label - SDG labels based on manually determined 
+                probability thresholds. These can be seen in 
+                https://github.com/nestauk/sdg-classification
+
+    Returns:
+        (pd.DataFrame): Parsed SDG label for CORDIS project dataset
+    '''
+    allowed = ['label', 'probability', 'strict_label']
+    if prediction_type not in allowed:
+        raise Exception(f'prediction_type must be one of {(", ").join(allowed)}')
+
+    fin = cordis_file_path(fp_name, 'sdgs') 
+    df = pd.read_csv(fin)
+    df = parse_cordis_sdgs(df, prediction_type)
+    return df
+
+def _parse_fp6_projects(df):
+    '''parse_fp6_projects
+    Correct an issue where some space characters exist in FP6 funding data.
+    '''
+    correct_cols = ['ec_max_contribution', 'total_cost']
+    for c in correct_cols:
+        df[c] = (df[c]
+                .str.replace(',', '.')
+                .str.replace(' ', '')
+                .astype(float))
+    return df
