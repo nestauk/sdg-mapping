@@ -9,7 +9,7 @@ from sdg_mapping.utils.misc_utils import camel_to_snake, fetch
 
 logger = logging.getLogger(__name__)
 
-FRAMEWORK_PROGRAMMES = ['h2020', 'fp7', 'fp6', 'fp5', 'fp4', 'fp3', 'fp2', 'fp1']
+FRAMEWORK_PROGRAMMES = ['fp1', 'fp2', 'fp3', 'fp4', 'fp5', 'fp6', 'fp7', 'h2020']
 
 
 def cordis_file_path(fp_name, resource_name):

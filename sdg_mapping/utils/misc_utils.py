@@ -1,4 +1,5 @@
 import re
+import urllib
 
 def camel_to_snake(name):
     '''Convert lowerCamelCase or upperCamelCase to snake_case
