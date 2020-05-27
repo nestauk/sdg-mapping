@@ -3,42 +3,74 @@ import pandas as pd
 
 import sys
 import os
-import urllib
+import json
 
 from sdg_mapping import project_dir
 
-from sdg_mapping.utils.misc_utils import fetch
+with open(f'{project_dir}/data/aux/sdg_index_data_opts.json', 'r') as f:
+    state_dict = json.load(f)
+
 
 def sdg_index_file_path(year):
+    """sdg_index_file_path
+    To fetch filepath of SDG Index datasets.
 
+    Args:
+        year (str): Year of SDG Index datasets
+
+    Returns:
+        (str): File path
+
+    """
     fname = f'{year}_sdg_index.xlsx'
-    return f'{project_dir}/data/raw/{fname}' #/sdg_index
+    return f'{project_dir}/data/raw/{fname}'
 
-def fetch_sdg_index(year): #, fout=None
-    url = None
-    if year == 2019:
-        url = 'https://github.com/sdsna/2019GlobalIndex/raw/master/2019GlobalIndexResults.xlsx'
 
-        fname = f'{year}_sdg_index.xlsx'
-    return urllib.request.urlretrieve(url, f'{project_dir}/data/raw/{fname}')
+def read_workbook(data_path, state):
+    """read_workbook
+    To read an Excel read_workbook
 
-def read_workbook(data_sheet_name, data_path):
-    # SDR2019 Data
-    df = pd.read_excel(open(data_path, 'rb'),
-              sheet_name=data_sheet_name)
-    df.columns = df.iloc[0].values
+    Args:
+        data_path (str): File path of an SDG Index dataset
+        state (str): State of dataset needed; raw or data
 
+    Returns:
+        (pd.DataFrame): Parsed SDG Index data
+
+    """
+    if state == 'data':
+        df = pd.read_excel(open(data_path, 'rb'),
+                  sheet_name=state_dict[state],header = 1)
+
+    elif state == 'raw':
+        df = pd.read_excel(open(data_path, 'rb'),
+                  sheet_name=state_dict[state])
     return df
 
-def parse_2019_sdg_index(dataset):
-    #{project_dir}
+def parse_2019_sdg_index(dataset, state):
+    """parse_2019_sdg_index
+    To clean SDG (2019) Index data
+
+    Args:
+        dataset (pd.DataFrame): SDG Index dataframe
+        state (str): State of dataset needed; raw or data
+
+    Returns:
+        (pd.DataFrame): Cleaned SDG Index data
+
+    """
     with open(f'{project_dir}/data/aux/sdg_index_mappings.json', 'r') as f:
         maps = json.load(f)
 
     trend_map = maps['trend_map']
     achievement_map = maps['achievement_map']
 
-    sdg_index_19_df = dataset.drop([0]).reset_index(drop=True)
+    # sdg_index_19_df = dataset.copy()
+    if state == "data":
+        sdg_index_19_df = dataset.drop([0]).reset_index(drop=True)
+
+    elif state == "raw":
+        sdg_index_19_df = dataset.copy()
 
     trend_columns = [i for i in sdg_index_19_df.columns if 'Trend' in i]
     dashboard_columns = [i for i in sdg_index_19_df.columns if (('Dashboard' in i) and ('Goal' in i))]
@@ -49,21 +81,41 @@ def parse_2019_sdg_index(dataset):
     for j in dashboard_columns:
         sdg_index_19_df[j] = sdg_index_19_df[j].map(achievement_map)
 
-    sdg_index_19_df.to_csv('test.csv')
+    # sdg_index_19_df.to_csv('test.csv')
 
-    return
 
-def load_sdg_index(year, sheet_name):
+    return sdg_index_19_df
 
-    # fetch_index(year) make separate
+def load_sdg_index(year, state):
+    """load_sdg_index
+    To run wrap and run previous function
+
+    Args:
+        year (str): Year of SDG Index datasets
+        state (str): State of dataset needed; raw or data
+
+    Returns:
+        (pd.DataFrame): Cleaned SDG Index data
+
+    """
+
+    # fetch_index(year)
     fin = sdg_index_file_path(year)
-    df = read_workbook(sheet_name, fin)
-    df = parse_2019_sdg_index(df)
+    if (year == 2019 and state == 'data'):
+        # print(sheets[sheet_name])
+        df = read_workbook(fin, state)
+        df = parse_2019_sdg_index(df, state)
+        df.columns = [i.lower().replace(" ", "_") for i in df.columns]
+        return df
 
-    return df
+    else:
+        df = read_workbook(fin, state)
+        df.columns = [i.lower().replace(" ", "_") for i in df.columns]
+        return df
+
 
 if __name__ ==' __main__':
-    # 2019 'SDR2019 Data'
+
     load_sdg_index(sys.argv[1], sys.argv[2])
 
     # https://sdsna.github.io/2019GlobalIndex/2019GlobalIndexResults.xlsx
