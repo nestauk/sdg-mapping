@@ -1,1 +1,14 @@
-{"trend_map": {".": NaN, "\u2191": "increasing_on_track", "\u279a": "increasing_moderately", "\u2192": "stagnant", "\u2193": "decreasing"}, "achievement_map": {"green": "goal_achievement", "yellow": "challenges_remain", "orange": "significant_challenges", "red": "major_challenges"}}
+{
+  "trend_map": {
+    "↑": "increasing_on_track",
+    "➚": "increasing_moderately",
+    "→": "stagnant",
+    "↓": "decreasing"
+  },
+  "achievement_map": {
+    "green": "goal_achievement",
+    "yellow": "challenges_remain",
+    "orange": "significant_challenges",
+    "red": "major_challenges"
+  }
+}

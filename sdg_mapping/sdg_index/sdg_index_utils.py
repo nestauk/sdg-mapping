@@ -65,24 +65,15 @@ def parse_2019_sdg_index(dataset, state):
     trend_map = maps['trend_map']
     achievement_map = maps['achievement_map']
 
-    # sdg_index_19_df = dataset.copy()
-    if state == "data":
-        sdg_index_19_df = dataset.drop([0]).reset_index(drop=True)
-
-    elif state == "raw":
-        sdg_index_19_df = dataset.copy()
-
+    sdg_index_19_df = dataset.copy()
     trend_columns = [i for i in sdg_index_19_df.columns if 'Trend' in i]
     dashboard_columns = [i for i in sdg_index_19_df.columns if (('Dashboard' in i) and ('Goal' in i))]
 
-
+    # ignores '.' and replaces with NaN
     for j in trend_columns:
         sdg_index_19_df[j] = sdg_index_19_df[j].map(trend_map)
     for j in dashboard_columns:
         sdg_index_19_df[j] = sdg_index_19_df[j].map(achievement_map)
-
-    # sdg_index_19_df.to_csv('test.csv')
-
 
     return sdg_index_19_df
 
@@ -99,10 +90,9 @@ def load_sdg_index(year, state):
 
     """
 
-    # fetch_index(year)
     fin = sdg_index_file_path(year)
     if (year == 2019 and state == 'data'):
-        # print(sheets[sheet_name])
+
         df = read_workbook(fin, state)
         df = parse_2019_sdg_index(df, state)
         df.columns = [i.lower().replace(" ", "_") for i in df.columns]
