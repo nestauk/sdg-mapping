@@ -1,11 +1,4 @@
-import numpy as np
-import pandas as pd
 import json
-
-import logging
-import sys
-import os
-# import urllib
 
 from sdg_mapping import project_dir
 
