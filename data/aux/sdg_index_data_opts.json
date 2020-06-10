@@ -1,4 +1,10 @@
 {
-  "raw": "Raw Data (trends)",
-  "data": "SDR2019 Data"
-}
+  "raw": {
+    "sheet_name": "Raw Data (trends)",
+    "header": "0"
+    },
+  "data": {
+    "sheet_name": "SDR2019 Data",
+    "header": "1"
+    }
+ }

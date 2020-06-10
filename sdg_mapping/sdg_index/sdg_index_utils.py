@@ -36,24 +36,17 @@ def read_workbook(data_path, state):
 
     Returns:
         (pd.DataFrame): Parsed SDG Index data
-
     """
-    if state == 'data':
-        df = pd.read_excel(open(data_path, 'rb'),
-                  sheet_name=state_dict[state],header = 1)
 
-    elif state == 'raw':
-        df = pd.read_excel(open(data_path, 'rb'),
-                  sheet_name=state_dict[state])
+    df = pd.read_excel(data_path, na_values='.', **read_opts)
     return df
 
-def parse_2019_sdg_index(dataset, state):
+def parse_2019_sdg_indicator(dataset):
     """parse_2019_sdg_index
     To clean SDG (2019) Index data
 
     Args:
         dataset (pd.DataFrame): SDG Index dataframe
-        state (str): State of dataset needed; raw or data
 
     Returns:
         (pd.DataFrame): Cleaned SDG Index data
@@ -65,7 +58,7 @@ def parse_2019_sdg_index(dataset, state):
     trend_map = maps['trend_map']
     achievement_map = maps['achievement_map']
 
-    sdg_index_19_df = dataset.copy()
+    sdg_index_19_df = dataset
     trend_columns = [i for i in sdg_index_19_df.columns if 'Trend' in i]
     dashboard_columns = [i for i in sdg_index_19_df.columns if (('Dashboard' in i) and ('Goal' in i))]
 
@@ -91,18 +84,13 @@ def load_sdg_index(year, state):
     """
 
     fin = sdg_index_file_path(year)
-    if (year == 2019 and state == 'data'):
 
-        df = read_workbook(fin, state)
-        df = parse_2019_sdg_index(df, state)
-        df.columns = [i.lower().replace(" ", "_") for i in df.columns]
-        return df
+    df = read_workbook(fin,state)
+    if (year == 2019) and (state == 'data'):
+        df = parse_2019_sdg_indicator(df)
+    df.columns = [i.lower().replace(" ", "_") for i in df.columns]
 
-    else:
-        df = read_workbook(fin, state)
-        df.columns = [i.lower().replace(" ", "_") for i in df.columns]
-        return df
-
+    return df
 
 if __name__ ==' __main__':
 

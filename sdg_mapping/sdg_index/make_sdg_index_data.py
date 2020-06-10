@@ -22,8 +22,6 @@ def make_sdg_index_raw():
         print(sdg_index_url_suffixes)
 
     for year, url in sdg_index_url_suffixes.items():
-        sys.stdout.write(year)
-        sys.stdout.write(url)
         logger.info(f'Downloading {year} ')
         fname = f'{year}_sdg_index.xlsx'
 
@@ -33,7 +31,3 @@ def make_sdg_index_raw():
 
 if __name__ =='__main__':
     make_sdg_index_raw()
-
-    # https://sdsna.github.io/2019GlobalIndex/2019GlobalIndexResults.xlsx
-    # https://github.com/sdsna/2018GlobalIndex/raw/master/2018GlobalIndexResults.xlsx
-    # https://github.com/sdsna/2017GlobalIndex/blob/master/2017GlobalIndexResults.xlsx
