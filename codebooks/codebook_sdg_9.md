@@ -9,23 +9,25 @@ The key concepts of Goal 9 are:
 * Grow inclusive and sustainable industrialization and manufacturing 
 * Industrial SME access to financial services and markets
 * Infrastructure sustainability and resource use
-* Clean and low carbon technology used in industry**
-* Enhance scientific research and upgrade the technological capability of industry*
-* Supporting infrastructure development
+* Clean and low carbon technology used in industry*
+* Enhance scientific research**
+* Upgrade the technological capability of industry***
 * Diversification to medium and high-tech industries
 * Access to ICT and internet
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
 
-**Key terms (non-exhaustive):** wireless networks, sustainable production, industry 4.0, 5G, ICT infrastructure, engineering, infrastructure development, manufacturing SMEs, fourth industrial revolution, energy efficient, energy recovery, economic complexity, internet access, centre for excellence, low carbon manufacturing, 
+**Key terms (non-exhaustive):** wireless networks, sustainable production, industry 4.0, 5G, ICT infrastructure, engineering, infrastructure development, manufacturing SMEs, fourth industrial revolution, energy efficient, energy recovery, economic complexity, internet access, centre for excellence, low carbon manufacturing, STEM
 
-*Many projects detail technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than fundamental R&D.
+*As far as possible, this refers to the deployment of low carbon and sustainable technology in the manufacturing process, rather than the products themselves, although we acknowledge that it is not always easy to distinguish the two.
 
-**As far as possible, this refers to the deployment of low carbon and sustainable technology in the manufacturing process, rather than the products themselves, although we acknowledge that it is not always easy to distinguish the two.
+**There are many projects about training centres for various disciplines. We are mostly interested in centres that relate to science, technology or innovation.
+
+***Many projects describe fundamental technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than basic R&D.
 
 ### Related Goals
 
-There are two Sustainable Development Goals that have aspects that are closely related to Goal 1. These are:
+There are two Sustainable Development Goals that have aspects that are closely related to Goal 9. These are:
 
 - 8. Decent Work and Economic Growth
 	- Covers more general policies 
@@ -34,11 +36,18 @@ There are two Sustainable Development Goals that have aspects that are closely r
 - 12. Responsible Production and Consumption
 	- Efficient use of material resources, sustainable products, post-consumption waste management
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 2 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 2 as well as issues related to Goals 12, 13 or 15, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 9 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 2 as well as issues related to Goals 8, 11 or 12, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 For example:
 
-<table>
+| Project description                                                    | Is Goal 9? |
+|------------------------------------------------------------------------|-------------|
+| Long term investments in electricity grid                              | Yes         |
+| Research into new oil refinery designs                                 | No          |
+| Industrial method to reduce water and energy use in textile processing | Yes         |
+| Development of new type of plant based fabric                          | No          |
+| New network for research on Industry 4.0                               | Yes         |
+| New training centre for theoretical physics graduates                  | No          |
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 

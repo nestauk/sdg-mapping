@@ -10,16 +10,16 @@ The key concepts of Goal 10 are:
 * Equal opportunities and reduce inequalities of outcome
 * Eliminate discriminatory laws, policies and practices and promoting alternatives
 * Fiscal, wage and social protection policies
-* Regulation and monitoring of global financial markets and institutions
+* Resilient, regulated and monitored global financial markets and institutions
 * Representation of developing countries in global decision-making and institutions
-* Orderly, safe, regular and responsible migration
+* Safe and responsible migration patterns and policies
 * Special and differential treatment for developing countries for world trade
-* Development assistance and financial flows
+* International development assistance and financial flows
 * Reduce costs of migrant remittances
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
 
-**Key terms (non-exhaustive):** wireless networks, sustainable production, industry 4.0, 5G, ICT infrastructure, engineering, infrastructure development, manufacturing SMEs, fourth industrial revolution, energy efficient, energy recovery, economic complexity, internet access, centre for excellence, low carbon manufacturing, 
+**Key terms (non-exhaustive):** inequality, economic inequality, low income, welfare, gender inequality, lgbtq+, migrant population, discrimination, political exclusion, equal opportunities, equal rights, discrimination, low income, wealth inequality, fair trade, financial regulation, institutional reform, migration patterns, legal rights, civil rights, racism, market stability 
 
 *Many projects detail technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than fundamental R&D.
 
@@ -29,18 +29,25 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 There are two Sustainable Development Goals that have aspects that are closely related to Goal 1. These are:
 
+- 1. No Poverty
+	- Concerns poverty and welfare but not necessarily inequality
 - 8. Decent Work and Economic Growth
-	- Covers more general policies 
+	- Covers social protection and labour rights
 - 11. Sustainable Cities and Communities
-	- Covers urbanisation and all kinds of urban infrastructure
-- 12. Responsible Production and Consumption
-	- Efficient use of material resources, sustainable products, post-consumption waste management
+	- Covers more general social cohesion
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 2 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 2 as well as issues related to Goals 12, 13 or 15, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 10 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 10 as well as issues related to Goals 1, 8 or 11, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 For example:
 
-<table>
+| Project description                                       | Is Goal 10? |
+|-----------------------------------------------------------|-------------|
+| Study of policies to redistribute wealth                  | Yes         |
+| New models of international aid to reduce extreme poverty | No          |
+| Research on migration patterns                            | Yes         |
+| Reducing the costs of border surveillance tools           | No          |
+| Regulation models for stabilising global markets          | Yes         |
+| New algorithm for high frequency trading                  | No          |
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
