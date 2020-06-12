@@ -8,16 +8,16 @@ import json
 from sdg_mapping import project_dir
 
 with open(f'{project_dir}/data/aux/sdg_index_data_opts.json', 'r') as f:
-    state_dict = json.load(f)
-    for i in state_dict.keys():
-        state_dict[i]["header"] = int(state_dict[i]["header"])
+    index_type_dict = json.load(f)
+    for i in index_type_dict.keys():
+        index_type_dict[i]["header"] = int(index_type_dict[i]["header"])
 
 def sdg_index_file_path(year):
     """sdg_index_file_path
     Generates file path for SDG Index datasets.
 
     Args:
-        year (str): Year of SDG Index datasets
+        year (str): Year of SDG Index dataset
 
     Returns:
         (str): File path
@@ -27,18 +27,18 @@ def sdg_index_file_path(year):
     return f'{project_dir}/data/raw/{fname}'
 
 
-def read_workbook(data_path, state):
+def read_workbook(data_path, index_type):
     """read_workbook
     To read in the Excel workbook- which includes the raw and processed
     Excel spreadsheets that can be used for the SDG index analysis
 
     Args:
         data_path (str): File path of an SDG Index dataset
-        state (str): State of dataset needed; raw or data
+        index_type (str): Index of dataset needed; raw or report
     Returns:
         (pd.DataFrame): Parsed SDG Index data
     """
-    read_opts = state_dict[state]
+    read_opts = index_type_dict[index_type]
     df = pd.read_excel(data_path, na_values='.', **read_opts)
     return df
 
@@ -70,14 +70,14 @@ def parse_2019_sdg_indicator(dataset):
 
     return sdg_index_19_df
 
-def load_sdg_index(year, state):
+def load_sdg_index(year, index_type):
     """load_sdg_index
     A function to complete the start to end process of cleaning the
     dataset
 
     Args:
         year (str): Year of SDG Index datasets
-        state (str): State of dataset needed; raw or data
+        index_type (str): Index of dataset needed; raw or report
 
     Returns:
         (pd.DataFrame): Cleaned SDG Index data
@@ -86,8 +86,8 @@ def load_sdg_index(year, state):
 
     fin = sdg_index_file_path(year)
 
-    df = read_workbook(fin,state)
-    if (year == 2019) and (state == 'data'):
+    df = read_workbook(fin,index_type)
+    if (year == 2019) and (index_type == 'report'):
         df = parse_2019_sdg_indicator(df)
     df.columns = [i.lower().replace(" ", "_") for i in df.columns]
 
