@@ -23,7 +23,8 @@ The key concepts of Goal 11 are:
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
 
-**Key terms (non-exhaustive):** housing, housing services, running water, sewage systems, public transport, rail network, mass transit, road safety, pedestrians, disabiled access, gentrification, green buildings, environmental planning, participatory planning, local government, cultural heritage, museums, world heritage, landmark, natural landscape, flood protection, earthquake resistant, air pollution, waste management, recycling centres, parks, green space, urban development, rural development, national/regional development planning, climate resilience, carbon emissions, C40 cities, local strategy, low carbon buildings, sustainable architecture, local democracy, participatory, traditional building
+## Key terms (non-exhaustive)
+housing, housing services, running water, sewage systems, public transport, rail network, mass transit, road safety, pedestrians, disabiled access, gentrification, green buildings, environmental planning, participatory planning, local government, cultural heritage, museums, world heritage, landmark, natural landscape, flood protection, earthquake resistant, air pollution, waste management, recycling centres, parks, green space, urban development, rural development, national/regional development planning, climate resilience, carbon emissions, C40 cities, local strategy, low carbon buildings, sustainable architecture, local democracy, participatory, traditional building
 
 ### Not to be confused with
 

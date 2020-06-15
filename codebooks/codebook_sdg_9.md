@@ -10,8 +10,9 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 * Quality, reliable, sustainable and resilient infrastructure
 * Grow inclusive and sustainable industrialization and manufacturing 
 * Industrial SME access to financial services and markets
-* Infrastructure sustainability and resource use
-* Clean and low carbon technology used in industry*
+* Infrastructure upgrades and industry retrofits for  sustainability
+* Resource-use efficiency and greater 
+* Clean and environmentally safe technologies and industrial processes*
 * Enhance scientific research**
 * Upgrade the technological capability of industry***
 * Diversification to medium and high-tech industries
@@ -19,22 +20,22 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
 
-**Key terms (non-exhaustive):** wireless networks, sustainable production, industry 4.0, 5G, ICT infrastructure, engineering, infrastructure development, manufacturing SMEs, fourth industrial revolution, energy efficient, energy recovery, economic complexity, internet access, centre for excellence, low carbon manufacturing, STEM
-
-*As far as possible, this refers to the deployment of low carbon and sustainable technology in the manufacturing process, rather than the products themselves, although we acknowledge that it is not always easy to distinguish the two.
+*As far as possible, this refers to the deployment of low carbon and sustainable technology in industrial processes, rather than the products themselves, although we acknowledge that it is not always easy to distinguish the two.
 
 **There are many projects about training centres for various disciplines. We are mostly interested in centres that relate to science, technology or innovation.
 
 ***Many projects describe fundamental technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than basic R&D.
 
+
+## Key terms (non-exhaustive)
+wireless networks, sustainable production, industry 4.0, 5G, ICT infrastructure, engineering, infrastructure development, manufacturing SMEs, fourth industrial revolution, energy efficient, energy recovery, economic complexity, internet access, centre for excellence, low carbon manufacturing, STEM
+
 ### Not to be confused with
 
 - 8. Decent Work and Economic Growth
-	- Covers more general policies 
-- 11. Sustainable Cities and Communities
-	- Covers urbanisation and all kinds of urban infrastructure
+	- Covers more general economic policies and growth
 - 12. Responsible Production and Consumption
-	- Efficient use of material resources, sustainable products, post-consumption waste management
+	- Covers post-production and consumption based waste and environmental impacts
 
 Remember, many projects will cover more than one Goal, but to be tagged as Goal 9 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
