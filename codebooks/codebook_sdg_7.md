@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 7 are:
+### Key Concepts of Goal 7
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 * Access to affordable, reliable and modern energy
 * Increase the share of renewable energy
@@ -13,23 +15,18 @@ The key concepts of Goal 7 are:
 * Financing clean energy production
 * Expand sustainable energy infrastructure and upgrade technology
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
+### Example key terms (non-exhaustive)
+clean energy, renewables, energy efficiency, energy recovery, energy access, affordable energy, biomass, solar energy, wind power, hydropower, energy transition, photovoltaics, fuel cells, energy consumption, energy storage, grid, light harvesting, solar heating, batteries, artificial photosynthesis, nuclear energy, energy markets, high temperature superconductors, energy infrastructure
 
-**Example key terms (non-exhaustive):** clean energy, renewables, energy efficiency, energy recovery, energy access, affordable energy, biomass, solar energy, wind power, hydropower, energy transition, photovoltaics, fuel cells, energy consumption, energy storage, grid, light harvesting, solar heating, batteries, artificial photosynthesis, nuclear energy, energy markets, high temperature superconductors, energy infrastructure
 
+### Not to be confused with
 
-### Related Goals
+There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 7. These are: 
 
-There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 6. These are: 
-
-- 9. Industry Innovation and Infrastructure
-	- Discusses broader aspects of sustainable industry e.g. pollution
-- 11. Sustainable Cities and Communities
-	- Covers safe and sustainable transport
 - 13. Climate Action
 	- Covers policy responses and adaptation to climate change
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 7 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 7 as well as issues related to Goals 9, 11 or 13, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 7 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 For example:
 
@@ -44,7 +41,7 @@ For example:
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
-### General Labelling Advice
+### Things to remember
 
 The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 

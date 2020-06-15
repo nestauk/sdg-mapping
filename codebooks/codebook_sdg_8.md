@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 8 are:
+### Key Concepts of Goal 8
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 * Sustain economic growth 
 * Higher economic productivity and diversification
@@ -18,24 +20,25 @@ The key concepts of Goal 8 are:
 * Capacity of domestic financial institutions for financial inclusion
 * Aid for Trade
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
-
-**Example key terms (non-exhaustive):** employee rights, forced labour, trafficking, modern slavery, economic development, economic growth, productivity, creative industries, innovation policy, workers rights, migrant workers, training, employment, youth unemployment, funding access, SMEs, skills, labour markets, unpaid work, job security, precarity, job seekers, technology transfer, innovation capacity, sustainable tourism, workforce
-
 *Projects should relate to these concepts at a high level (e.g. institutional, policy, regional). For example, studies relating to innovative industry clusters or policies aimed at driving creativity and innovation, rather than highly specific inventions or technologies that will be used in industry for productivity or sustainability.
 
-### Related Goals
+### Example key terms (non-exhaustive)
+employee rights, forced labour, trafficking, modern slavery, economic development, economic growth, productivity, creative industries, innovation policy, workers rights, migrant workers, training, employment, youth unemployment, funding access, SMEs, skills, labour markets, unpaid work, job security, precariousness, job seekers, technology transfer, innovation capacity, sustainable tourism, workforce
+
+### Not to be confused with
 
 There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 6. These are: 
 
 - 1. No Poverty
-	- Addresses general social welfare
+	- Addresses general economic welfare and social protection
 - 9. Industry, Innovation and Infrastructure
 	- Concerns making industry more sustainable
+- 10. Reduced Inequalities
+	- Addresses general economic welfare and social protection
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 7 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 7 as well as issues related to Goals 9, 11 or 13, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 8 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
-For example:
+### Examples
 
 | Project description                                                   | Is Goal 8? |
 |-----------------------------------------------------------------------|------------|

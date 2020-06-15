@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 6 are:
+### Key Concepts of Goal 6
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 - Access to safe and affordable water for all
 - Access to sanitation and hygiene for all
@@ -16,24 +18,21 @@ The key concepts of Goal 6 are:
 - Cooperation to build WaSH capacity in developing countries
 - Involve local communities in water management
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
-
-**Example key terms (non-exhaustive):** water scarcity, water management, sustainable water use, pollution, freshwater, hydrology, aquifers, water consumption, monitoring, water conservation, drought, surface area, forecasting, water quality, remote sensing, water recycling, wastewater, groundwater, water treatment, water recovery, desalination, water demand, heavy metals, contamination, water supply, drinking water, 
-
 *This relates specifically to water in the context of its availability and use for humans
 
-### Related Goals
+### Key terms (non-exhaustive) 
+water scarcity, water management, sustainable water use, pollution, freshwater, hydrology, aquifers, water consumption, monitoring, water conservation, drought, surface area, forecasting, water quality, remote sensing, water recycling, wastewater, groundwater, water treatment, water recovery, desalination, water demand, heavy metals, contamination, water supply, drinking water, 
 
-There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 6. These are: 
+### Not to be confused with
 
 - 14. Life Below Water
-	- Water ecosystems in seas and oceans
+	- Covers water ecosystems in seas and oceans
 - 15. Life on Land
 	- Broader health and biodiversity of freshwater ecosystems
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 6 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 6 as well as issues related to Goals 14 or 15, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 6 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
-For example:
+### Examples
 
 | Project description                                               | Is Goal 6? |
 |-------------------------------------------------------------------|------------|
@@ -46,7 +45,7 @@ For example:
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
-### General Labelling Advice
+### Things to Remember
 
 The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
