@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 10 are:
+### Key Concepts of Goal 10
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 * Income growth of low income/wealth population
 * Social, economic and political inclusion of all
@@ -17,28 +19,23 @@ The key concepts of Goal 10 are:
 * International development assistance and financial flows
 * Reduce costs of migrant remittances
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
-
-**Key terms (non-exhaustive):** inequality, economic inequality, low income, welfare, gender inequality, lgbtq+, migrant population, discrimination, political exclusion, equal opportunities, equal rights, discrimination, low income, wealth inequality, fair trade, financial regulation, institutional reform, migration patterns, legal rights, civil rights, racism, market stability 
-
 *Many projects detail technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than fundamental R&D.
 
 **As far as possible, this refers to the deployment of low carbon and sustainable technology in the manufacturing process, rather than the products themselves, although we acknowledge that it is not always easy to distinguish the two.
 
-### Related Goals
+### Key terms (non-exhaustive)
+inequality, economic inequality, low income, welfare, gender inequality, lgbtq+, migrant population, discrimination, political exclusion, equal opportunities, equal rights, discrimination, low income, wealth inequality, fair trade, financial regulation, institutional reform, migration patterns, legal rights, civil rights, racism, market stability 
 
-There are two Sustainable Development Goals that have aspects that are closely related to Goal 1. These are:
+### Not to be confused with
 
 - 1. No Poverty
 	- Concerns poverty and welfare but not necessarily inequality
 - 8. Decent Work and Economic Growth
-	- Covers social protection and labour rights
-- 11. Sustainable Cities and Communities
-	- Covers more general social cohesion
+	- Covers labour rights
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 10 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 10 as well as issues related to Goals 1, 8 or 11, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 10 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
-For example:
+### Examples
 
 | Project description                                       | Is Goal 10? |
 |-----------------------------------------------------------|-------------|
@@ -52,7 +49,7 @@ For example:
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 
-### General Labelling Advice
+### Things to remember
 
 The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 

@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 9 are:
+### Key Concepts of Goal 9
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 * Quality, reliable, sustainable and resilient infrastructure
 * Grow inclusive and sustainable industrialization and manufacturing 
@@ -25,9 +27,7 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 ***Many projects describe fundamental technological developments. This goal is concerned only with those that are deployed in an industrial setting, rather than basic R&D.
 
-### Related Goals
-
-There are two Sustainable Development Goals that have aspects that are closely related to Goal 9. These are:
+### Not to be confused with
 
 - 8. Decent Work and Economic Growth
 	- Covers more general policies 
@@ -36,9 +36,9 @@ There are two Sustainable Development Goals that have aspects that are closely r
 - 12. Responsible Production and Consumption
 	- Efficient use of material resources, sustainable products, post-consumption waste management
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 9 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 2 as well as issues related to Goals 8, 11 or 12, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 9 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
-For example:
+### Examples
 
 | Project description                                                    | Is Goal 9? |
 |------------------------------------------------------------------------|-------------|
@@ -52,7 +52,7 @@ For example:
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 
-### General Labelling Advice
+### Things to remember
 
 The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
