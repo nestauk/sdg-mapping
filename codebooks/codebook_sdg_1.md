@@ -3,7 +3,9 @@
 
 ## Labelling Instructions
 
-The key concepts of Goal 1 are:
+### Key Concepts of Goal 1
+
+To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 - Eradicating extreme poverty
 - Reducing the number of people living in poverty
@@ -17,7 +19,8 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *There are specific goals for education, health and gender equality. Please only label projects `Yes` if they mainly relate to these areas in the context of state spending.
 
-**Key terms (non-exhaustive):** poverty reduction, social protection, welfare state, economic justice, low income, quality of life, extreme poverty, economic circumstances, economic crisis, material well-being, property rights, precarity, poverty, economic exclusion, living standards, disaster resilience, financial inclusion, financial exclusion, social determinants, austerity, poor
+### Key terms (non-exhaustive)
+poverty reduction, social protection, welfare state, economic justice, low income, quality of life, extreme poverty, economic circumstances, economic crisis, material well-being, property rights, precariousness, poverty, economic exclusion, living standards, disaster resilience, financial inclusion, financial exclusion, social determinants, austerity, poor
 
 ### Related Goals
 
@@ -28,11 +31,11 @@ There are two Sustainable Development Goals that have aspects that are closely r
 - 10. Reduced Inequalities
 	- Covers economic inequality (regardless of poverty)
 - 11. Sustainable Cities and Communities
-	- Includes housing
+	- Covers housing (regardless of poverty)
 
-If a project appears to discuss these Goals (or indeed any others) without mentioning any of the key Goal 1 concepts above, label it with `No`. However, bear in mind that there are projects that do span more than one goal. If the project includes key concepts for Goal 1 as well as issues related to Goals 8, 10 or 11, then please label it with a `Yes`. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 1 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
-For example:
+### Examples
 
 | Project description                                                | Is Goal 1? |
 |--------------------------------------------------------------------|------------|
@@ -47,7 +50,7 @@ For example:
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 
-### General Labelling Advice
+### Things to Remember
 
 The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
@@ -81,4 +84,4 @@ The documents that we are labelling are research projects so it may not be clear
 - Target 1.b: Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions
   - Indicator 1.b.1: Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups
 
-Source: https://unstats.un.org/sdgs/metadata/
+Source: [https://unstats.un.org/sdgs/metadata/](https://unstats.un.org/sdgs/metadata/)
