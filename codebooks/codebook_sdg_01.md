@@ -22,16 +22,12 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 ### Key terms (non-exhaustive)
 poverty reduction, social protection, welfare state, economic justice, low income, quality of life, extreme poverty, economic circumstances, economic crisis, material well-being, property rights, precariousness, poverty, economic exclusion, living standards, disaster resilience, financial inclusion, financial exclusion, social determinants, austerity, poor
 
-### Related Goals
-
-There are two Sustainable Development Goals that have aspects that are closely related to Goal 1. These are: 
+### Not to be confused with
 
 - 8. Decent Work and Economic Growth
 	- Concerns broader economic development, employment and labour rights
 - 10. Reduced Inequalities
-	- Covers economic inequality (regardless of poverty)
-- 11. Sustainable Cities and Communities
-	- Covers housing (regardless of poverty)
+	- Covers economic inequality not specifically related to poverty
 
 Remember, many projects will cover more than one Goal, but to be tagged as Goal 1 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
