@@ -8,27 +8,32 @@
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 - Improving human health
-
 - Increase life expectancy 
 - Infant mortality
 - Reduce deaths caused by external factors e.g.. road traffic accidents
-
 - Reduce the global maternal mortality rate
-
 - Reduce the number deaths and illnesses from hazardous chemicals and air, and water and soil pollution*
 - Epidemics and related premature deaths
 - Communicable and non-communicable diseases
 - Mental health, well-being and suicide
 - Prevention and treatment of substance abuse (incl. tobacco)
-
 - Support of the research and development of vaccines and medicines
-- Universal healthcare and universal access to sexual and reproductive health-care services*
+- Universal healthcare and universal access to sexual and reproductive health-care services
 - Access to health-care services*
-- Universal health coverage, health insurance and access to medicines
+- Universal health coverage, health insurance and access to medicines*
 - Development, training and retention of the health workforce
 - Early warning, risk reduction and management of national/international health risks
 
-* There are specific goals for broader gender inequality and other inequalities. Please only label projects `Yes` if they concern equality in a health-specific context.
+* There are specific goals for broader inequalities. Please only label projects `Yes` if they concern equality in a health-specific context.
+
+
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 
 ### Key terms (non-exhaustive)
@@ -40,7 +45,6 @@ health, wellbeing, life quality, health risks, prevention, disease, illness, hea
 - 10. Reduced Inequalities
   - Access to quality services for all not specifically related to health
 
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 3 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 For example:
 
@@ -54,13 +58,6 @@ For example:
 | Project discussing metabolic interactions in oceanic ecosystems                                    | No         |
 
 | Project discussing the effects of chronic pollution by off-shore oil and gas on marine life                                    | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 
 ---

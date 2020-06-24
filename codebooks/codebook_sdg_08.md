@@ -22,12 +22,18 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *Projects should relate to these concepts at a high level (e.g. institutional, policy, regional). For example, studies relating to innovative industry clusters or policies aimed at driving creativity and innovation, rather than highly specific inventions or technologies that will be used in industry for productivity or sustainability.
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Example key terms (non-exhaustive)
 employee rights, forced labour, trafficking, modern slavery, economic development, economic growth, productivity, creative industries, innovation policy, workers rights, migrant workers, training, employment, youth unemployment, funding access, SMEs, skills, labour markets, unpaid work, job security, precariousness, job seekers, technology transfer, innovation capacity, sustainable tourism, workforce
 
 ### Not to be confused with
-
-There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 6. These are: 
 
 - 1. No Poverty
 	- Addresses general economic welfare and social protection
@@ -35,8 +41,6 @@ There are 2 Sustainable Development Goals that have aspects that are closely rel
 	- Concerns making industry more sustainable
 - 10. Reduced Inequalities
 	- Addresses general economic welfare and social protection
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 8 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -49,13 +53,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Measuring social cohesion of migrant populations                      | No         |
 | Studying the impact of tourism on local ecosystems                    | Yes        |
 | Boosting the tourism industry                                         | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-### General Labelling Advice
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
 
 ---
 

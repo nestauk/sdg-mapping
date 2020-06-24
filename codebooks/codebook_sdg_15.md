@@ -14,7 +14,7 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 * Combat desertification, restore degraded land and soil
 * Land affected by desertification, drought and floods
 * Conservation of mountain ecosystems and biodiversity
-* Reduce degradation of natural habitats,
+* Reduce degradation of natural habitats
 * Biodiversity loss and threatened species
 * Fair and equitable sharing of genetic resource benefits and access*
 * Poaching and trafficking of protected species of flora and fauna
@@ -23,16 +23,22 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *genetic resources refers to "any material of plant, animal, microbial or other origin containing functional units of heredity. Examples include material of plant, animal, or microbial origin, such as medicinal plants, agricultural crops and animal breeds." Source: [https://www.wipo.int/tk/en/genetic/](https://www.wipo.int/tk/en/genetic/)
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Key terms (non-exhaustive)
-monitoring, real time, sensing, forests, ecosystems, ecology, species, insects, timber industry, revegetation, reforestation, afforestation, deforestatino, desertification, mountains, poaching, trafficking, invasive species, arid zones, soil, logging, drought, degradation, agricultural intensification, arboriculture, aridification, natural regeneration, biodiversity, coastal wetland, endangered species, forest fragmentation, hydrological cycle, soil nutrient, wetland
+monitoring, real time, sensing, forests, ecosystems, ecology, species, insects, timber industry, revegetation, reforestation, afforestation, deforestation, desertification, mountains, poaching, trafficking, invasive species, arid zones, soil, logging, drought, degradation, agricultural intensification, arboriculture, aridification, natural regeneration, biodiversity, coastal wetland, endangered species, forest fragmentation, hydrological cycle, soil nutrient, wetland
 
 
 ### Not to be confused with...
 
 - 15. Life Below Water
-	- This covers ecosystems in seas and oceans
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 15 they must include the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+	- This covers ecosystems in seas and oceans (non-freshwater bodies)
 
 ### Examples
 
@@ -46,14 +52,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Production of new fuels from forestry by-products         | No          |
 | Development of new open source genetically modified crop  | Yes         |
 | Study of genetic traits of bacteria on plant health       | No          |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
 
 ---
 

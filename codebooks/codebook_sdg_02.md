@@ -21,6 +21,14 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Agricultural trade restrictions and distortions
 - Food commodity markets
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 
 ### Key terms (non-exhaustive)
 hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food production, food producers, food access, nutrition, sufficient food, malnutrition, food systems, famines, starvation, vegetation, minerals, healthy food, vitamins, crop, crop yield, crop production, food commodities, drought, smallholder, genetic resources, soil quality, agricultural practice, seed bank, agricultural markets 
@@ -35,7 +43,6 @@ hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food pr
 - 15. Life On Land
   - Sustainable use and protection of ecosystems
 
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 2 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -48,13 +55,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Study measuring the physical capacity of freshwater bodies                                      | No         |
 | Project about agricultural resilience to freshwater bodies drying up                                      | Yes         |
 | Project discussing the biology of plants and non-agricultural ecosystems                       | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 
 ---

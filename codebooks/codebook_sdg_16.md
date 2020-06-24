@@ -9,7 +9,7 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 * Reduce physical, psychological and sexual violence and related death (including domestic)
 * Sense of safety 
-* War, conflict and toture
+* War, conflict and torture
 * Abuse, exploitation and trafficking of children
 * Rule of law at the national and international levels
 * Equal access to justice for all
@@ -30,8 +30,16 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *This refers to development happening without discrimination, human rights abuses or harassment
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Key terms (non-exhaustive)
-ableism, abortion, academic freedom, access to information, accountable institution, corruption, ageism, algorithmic, bias, arms flows, birth registration, black suffrage, child labour, child marriage, civic space, conflict, violence, deaths, criminal networks, discriminatory law, election monitoring, female genital mutilation, freedom of religion, habeas corpus, human right, internally displaced, mass surveillance, national equality standard, nepotism, police accountability, racism, sexual harassment, trafficking, voter suppression, war profiteering, waterboarding, white privilege, women's rights
+ableism, academic freedom, access to information, accountable institution, corruption, ageism, algorithmic bias, arms flows, birth registration, black suffrage, child labour, child marriage, civic space, conflict, violence, deaths, criminal networks, discriminatory law, election monitoring, female genital mutilation, freedom of religion, habeas corpus, human right, internally displaced, mass surveillance, national equality standard, nepotism, police accountability, racism, sexual harassment, trafficking, voter suppression, war profiteering, waterboarding, white privilege, women's rights
 
 
 ### Not to be confused with...
@@ -40,8 +48,6 @@ ableism, abortion, academic freedom, access to information, accountable institut
 	- Covers institutions for economic welfare
 - 10. Reduced Inequalities
 	- Covers institutions for economic welfare
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 16 they must include the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -53,14 +59,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | New ad revenue technologies                             | No          |
 | Research on harassment of trade union members           | Yes         |
 | Studies of general employment rights                    | No          |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
 
 ---
 

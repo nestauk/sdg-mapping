@@ -20,6 +20,14 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *This relates specifically to water in the context of its availability and use for humans
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Key terms (non-exhaustive) 
 water scarcity, water management, sustainable water use, pollution, freshwater, hydrology, aquifers, water consumption, monitoring, water conservation, drought, surface area, forecasting, water quality, remote sensing, water recycling, wastewater, groundwater, water treatment, water recovery, desalination, water demand, heavy metals, contamination, water supply, drinking water, 
 
@@ -29,8 +37,6 @@ water scarcity, water management, sustainable water use, pollution, freshwater, 
 	- Covers water ecosystems in seas and oceans
 - 15. Life on Land
 	- Broader health and biodiversity of freshwater ecosystems
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 6 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -42,12 +48,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | New use for water in a manufacturing process                      | No         |
 | More efficient use of water in a manufacturing process            | Yes        |
 | Decrease in capacity of a body of water use for drinking purposes | Yes        |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 
 ---

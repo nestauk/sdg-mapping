@@ -9,33 +9,30 @@
 - Quality and free, equitable and quality primary and secondary education
 - Quality and free pre-primary childhood development, care and education
 - Access to tertiary education and university
-
 - Equal access for men and women to vocational, technical and tertiary education
-
 - Eliminate gender disparities in access to education and vocational training and for the vulnerable*
 - Relevant skills for employment and entrepreneurship for youth and adults
-
 - Literacy and numeracy for youth and adults
-
-- Learning knowledge and skills to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc* 
-
+- Learning knowledge and skills to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc.
 - Supply of qualified teachers and scholarships available to developing countries
 - Education facilities that are safe and child, disability and gender sensitive
-
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
 
-* There are specific goals for gender, reducing inequalities and gender equality. Please only label projects `Yes` if they mainly relate to these areas in the context of state spending.
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 ### Key terms (non-exhaustive)
 education, quality, leaning, school, university, college, academic, vocational, training, education system, literacy, curriculum, STEM, ability, e-book, books, creativity, open learning, student, teacher training, numeracy, access to education
 
 ### Not to be confused with
 
-- 5. Gender Equality
-  - Concerns broader gender equality
-
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 4 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+- 16. Peace, Justice and Strong Institutions
+  - Concerns citizen's access to information and a free press
 
 ### Examples
 
@@ -48,8 +45,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Development of non-education related games for children                    | No         |
 
 | Project discussing research training in a field                    | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 
 ### Things to Remember

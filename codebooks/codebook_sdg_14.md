@@ -22,10 +22,18 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *marine environments in Goal 14 refer to seas and oceans as opposed to lakes, rivers and other land-based or freshwater bodies
 
-**"marine technologies" are those used for the safe use, exploitation, protection of, and intervention in, the marine environment, endangered, coral bleaching, 
+**"marine technologies" are technologies developed and used for the safe use, exploitation, protection of, and intervention in, the marine environment
+
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 ### Key terms (non-exhaustive)
-coastal ecosystems, seas, ocean health, oceanic observation, pollutants, ocean plastic, marine conservation, overfishing, marine health, fish stocks, livelihoods, marine stewardship, ocean biodiversity, blue economy, green shipping, aquaculture, aquatic protein, seafood, microplastics, marine protected area, marine spatial planning, ocean habitats, 
+coastal ecosystems, seas, ocean health, oceanic observation, pollutants, ocean plastic, marine conservation, overfishing, marine health, fish stocks, livelihoods, marine stewardship, ocean biodiversity, blue economy, green shipping, aquaculture, aquatic protein, seafood, microplastics, marine protected area, marine spatial planning, ocean habitats 
 
 ### Not to be confused with...
 
@@ -48,14 +56,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Research on tidal or wave energy generation              | No          |
 | Economic study of incentives for small scale fishing     | Yes         |
 | Impacts of aquaculture (fish farming) on land ecosystems | No          |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
 
 ---
 

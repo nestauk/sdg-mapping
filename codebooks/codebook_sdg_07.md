@@ -15,20 +15,22 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 * Financing clean energy production
 * Expand sustainable energy infrastructure and upgrade technology
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Example key terms (non-exhaustive)
 clean energy, renewables, energy efficiency, energy recovery, energy access, affordable energy, biomass, solar energy, wind power, hydropower, energy transition, photovoltaics, fuel cells, energy consumption, energy storage, grid, light harvesting, solar heating, batteries, artificial photosynthesis, nuclear energy, energy markets, high temperature superconductors, energy infrastructure
 
 
 ### Not to be confused with
 
-There are 2 Sustainable Development Goals that have aspects that are closely related to Goal 7. These are: 
-
 - 13. Climate Action
 	- Covers policy responses and adaptation to climate change
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 7 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
-
-For example:
 
 | Project description                                    | Is Goal 7? |
 |--------------------------------------------------------|------------|
@@ -38,12 +40,6 @@ For example:
 | Monitoring climate change effects                      | No         |
 | Sustainability research for cities including energy    | Yes        |
 | Rolling out new non-electric public transport          | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-### Things to remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 
 ---

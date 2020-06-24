@@ -20,6 +20,14 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 
 *This is referring to waste from the production of goods or associated processes, not sewage.
 
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 ### Key terms (non-exhaustive)
 sustainable forestry, food waste, harvest loss, resource management, ESG, waste prevention, reduce, reuse, recycle, repair, recovery, consumption, consumerism, awareness, circular economy, life cycle, sustainable manufacturing, consumer awareness, consumer behaviour, attitudes, metal-organic, radioactive, chemical, treatment, mining
 
@@ -42,13 +50,7 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Treatment of human waste in sewage                         | No          |
 | Studying the repair economy                                | Yes         |
 | Consumers putting solar panels on houses                   | No          |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
+| Development of new blockchain technology for sustainable procurement                   | Yes          |
 
 
 ---

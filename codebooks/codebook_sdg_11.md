@@ -21,7 +21,13 @@ The key concepts of Goal 11 are:
 * City mitigation and adaptation to climate change
 * Sustainable and resilient buildings and using local materials
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these in a significant way.
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 ## Key terms (non-exhaustive)
 housing, housing services, running water, sewage systems, public transport, rail network, mass transit, road safety, pedestrians, disabiled access, gentrification, green buildings, environmental planning, participatory planning, local government, cultural heritage, museums, world heritage, landmark, natural landscape, flood protection, earthquake resistant, air pollution, waste management, recycling centres, parks, green space, urban development, rural development, national/regional development planning, climate resilience, carbon emissions, C40 cities, local strategy, low carbon buildings, sustainable architecture, local democracy, participatory, traditional building
@@ -34,8 +40,6 @@ housing, housing services, running water, sewage systems, public transport, rail
 	- Covers industrial resource use and waste from manufacturing
 - 12. Responsible Consumption and Production
 	- Covers waste and resource use at consumer and industry level
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 11 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 
 ### Examples
@@ -50,12 +54,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Study of effects of gentrification                          | Yes         |
 | Economic impacts of diversifying industries in a city       | No          |
 
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 ---
 

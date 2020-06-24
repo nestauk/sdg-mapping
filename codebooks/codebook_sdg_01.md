@@ -15,9 +15,16 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - State spending on essential services (education, health and social protection)*
 - State spending on sectors that benefit women, the poor and vulnerable*
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
-
 *There are specific goals for education, health and gender equality. Please only label projects `Yes` if they mainly relate to these areas in the context of state spending.
+
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
+
 
 ### Key terms (non-exhaustive)
 poverty reduction, social protection, welfare state, economic justice, low income, quality of life, extreme poverty, economic circumstances, economic crisis, material well-being, property rights, precariousness, poverty, economic exclusion, living standards, disaster resilience, financial inclusion, financial exclusion, social determinants, austerity, poor
@@ -28,8 +35,6 @@ poverty reduction, social protection, welfare state, economic justice, low incom
 	- Concerns broader economic development, employment and labour rights
 - 10. Reduced Inequalities
 	- Covers economic inequality not specifically related to poverty
-
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 1 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -43,13 +48,7 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | A project relating to social mobility but not mentioning poverty | No         |
 | Project about economic growth but not in the context of poverty    | No         |
 
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
+In general, the projects that receive a `Yes` label are those which clearly refer to poverty, rather than economic projects which may have an indirect link to the subject.
 
 ---
 
