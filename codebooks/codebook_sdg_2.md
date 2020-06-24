@@ -44,7 +44,7 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Project discussing sustainable production of wheat                                         | Yes        |
 | Project discussing the EU's reliance on protein imports                                    | Yes        |
 | Project discussing the role of proteins and other molecular structures in cancer and ageing | No         |
-| Project discussing capacity of freshwater bodies                                      | No         |
+| Study measuring the physical capacity of freshwater bodies                                      | No         |
 | Project about agricultural resilience to freshwater bodies drying up                                      | Yes         |
 | Project discussing the biology of plants and non-agricultural ecosystems                       | No         |
 
