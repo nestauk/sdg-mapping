@@ -26,8 +26,6 @@ education, quality, leaning, school, university, college, academic, vocational, 
 
 - 5. Gender Equality
   - Concerns gender equality in various areas, not just education (specifically on reproductive health)
-- 8. Decent Work and Economic Growth
-  - Focus on types of work conditions and improving working environments
 
 Remember, many projects will cover more than one Goal, but to be tagged as Goal 4 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
