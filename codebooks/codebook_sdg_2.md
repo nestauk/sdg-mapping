@@ -34,7 +34,7 @@ hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food pr
 - 15. Life On Land
   - Sustainable use and protection of ecosystems
 
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 1 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+Remember, many projects will cover more than one Goal, but to be tagged as Goal 2 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
