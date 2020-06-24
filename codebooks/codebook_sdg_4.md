@@ -5,7 +5,6 @@
 
 ### Key Concepts of Goal 4
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
 - Ensure all children have access to quality and free pre-primary childhood development, care and education.
 - Equal access for men and women affordable vocational, technical and tertiary education
