@@ -30,7 +30,7 @@ hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food pr
 - 12. Responsible Consumption and Production
   - Concerns of extraction and use of resources (environmental, material, natural)
 - 13. Climate Action
-  - Concerns about climate change on the ecosystem
+  - Covers broader impacts of climate change on all land based ecosystems
 - 15. Life On Land
   - Sustainable use and protection of ecosystems
 
