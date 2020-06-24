@@ -17,7 +17,8 @@
 
 - Literacy and numeracy for youth and adults
 
-- Leaners to acquire knowledge and skills needed to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc*  
+- Learning knowledge and skills to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc* 
+
 - increase the supply of qualified teachers and scholarships available to developing countries
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
