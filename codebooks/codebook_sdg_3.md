@@ -7,7 +7,8 @@
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of:
 
-- Improving the health of millions
+- Improving human health
+
 - Increase life expectancy and reduce deaths caused by external factors such as road traffic accidents
 - Reduce the global maternal mortality ratio
 - Reduce the number deaths and illnesses from hazardous chemicals and air, and water and soil pollution*
