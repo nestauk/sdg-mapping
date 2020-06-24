@@ -14,7 +14,8 @@
 
 - Eliminate gender disparities in access to education and vocational training and for the vulnerable*
 - Increase in number of youth and adults who have relevant skills for employment and entrepreneurship
-- Achieve literacy and numeracy amongst youth and some adults
+- Literacy and numeracy for youth and adults
+
 - Leaners to acquire knowledge and skills needed to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc*  
 - increase the supply of qualified teachers and scholarships available to developing countries
 
