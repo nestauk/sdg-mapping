@@ -6,7 +6,10 @@
 ### Key Concepts of Goal 4
 
 
-- Ensure all children have access to quality and free pre-primary childhood development, care and education.
+- Quality and free, equitable and quality primary and secondary education
+- Quality and free pre-primary childhood development, care and education
+- Access to tertiary education and university
+
 - Equal access for men and women affordable vocational, technical and tertiary education
 - Eliminate gender disparities in access to education and vocational training and for the vulnerable*
 - Increase in number of youth and adults who have relevant skills for employment and entrepreneurship
