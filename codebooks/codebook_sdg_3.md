@@ -44,7 +44,8 @@ For example:
 
 | Project discussing clot formation as a potential diagnostic tool for Alzheimer's disease                                     | Yes        |
 | Project discussing a early-warning system for agriculture-related diseases such as wheat rust diseases                                    | No         |
-| Project discussing metabolic interactions in oceanic photosymbioses                                    | No         |
+| Project discussing metabolic interactions in oceanic ecosystems                                    | No         |
+
 | Project discussing the effects of chronic pollution by off-shore oil and gas on marine life                                    | No         |
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
