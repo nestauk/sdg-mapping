@@ -19,7 +19,6 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Agricultural trade restrictions and distortions
 - Food commodity markets
 
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
 
 ### Key terms (non-exhaustive)
 hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food production, food producers, food access, nutrition, sufficient food, malnutrition, food systems, famines, starvation, vegetation, minerals, healthy food, vitamins, crop, crop yield, crop production, food commodities, drought, smallholder, genetic resources, soil quality, agricultural practice, seed bank, agricultural markets 
