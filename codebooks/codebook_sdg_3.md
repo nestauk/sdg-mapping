@@ -32,8 +32,6 @@ health, wellbeing, life quality, health risks, prevention, disease, illness, hea
 
 - 10. Reduced Inequalities
   - Access to quality services for all not specifically related to health
-- 12. Responsible Consumption and Production
-  - Concerns the impact of chemicals and waste on not only human health but also environmental health
 
 Remember, many projects will cover more than one Goal, but to be tagged as Goal 3 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
