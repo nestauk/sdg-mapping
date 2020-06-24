@@ -16,7 +16,7 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Climate adaptation in agriculture
 - Soil quality
 - Maintain diverse agricultural ecosystem including diversity of seeds, plants, genetics etc.
-- Agricultural research related to food/human consumption (not biofuels, etc)
+- Agricultural research related to food for human consumption (not biofuels, etc)
 - Investment in agricultural and rural infrastructure
 - Agricultural trade restrictions and distortions
 - Food commodity markets
