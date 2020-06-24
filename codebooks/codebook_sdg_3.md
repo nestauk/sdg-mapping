@@ -13,7 +13,8 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Infant mortality
 - Reduce deaths caused by external factors e.g.. road traffic accidents
 
-- Reduce the global maternal mortality ratio
+- Reduce the global maternal mortality rate
+
 - Reduce the number deaths and illnesses from hazardous chemicals and air, and water and soil pollution*
 - End the epidemics of diseases and premature deaths caused by such diseases
 - Prevention and treatment of substance abuse (incl. tobacco)
