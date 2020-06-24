@@ -13,7 +13,8 @@
 - Equal access for men and women to vocational, technical and tertiary education
 
 - Eliminate gender disparities in access to education and vocational training and for the vulnerable*
-- Increase in number of youth and adults who have relevant skills for employment and entrepreneurship
+- Relevant skills for employment and entrepreneurship for youth and adults
+
 - Literacy and numeracy for youth and adults
 
 - Leaners to acquire knowledge and skills needed to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc*  
