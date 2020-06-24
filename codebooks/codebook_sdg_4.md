@@ -38,7 +38,8 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Project discussing the creation of a game which aims to develop and deliver a curriculum in soft skills                    | Yes        |
 | Project discussing a collaboration ecosystem enabling EU creative SMEs to exchange multi-media content and create multi-plot, interactive apps for children                   | Yes        |
 | Project discussing building capacity for design enabled innovation in urban environments                    | No         |
-| Project discussing improving the knowledge of organised crime                    | No         |
+| Development of non-education related games for children                    | No         |
+
 | Project discussing research training in a field                    | No         |
 
 In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
