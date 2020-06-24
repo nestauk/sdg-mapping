@@ -17,6 +17,9 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Support of the research and development of vaccines and medicines
 - Universal healthcare and universal access to sexual and reproductive health-care services*
 - Access to health-care services*
+- Universal health coverage, health insurance and access to medicines
+- Development, training and retention of the health workforce
+- Early warning, risk reduction and management of national/international health risks
 
 * There are specific goals for broader gender inequality and other inequalities. Please only label projects `Yes` if they concern equality in a health-specific context.
 
