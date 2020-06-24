@@ -26,7 +26,6 @@ hunger, world hunger, food, agriculture, malnutrition, farmers, fishers, food pr
 
 ### Not to be confused with
 
-There are two Sustainable Development Goals that have aspects that are closely related to Goal 1. These are:
 
 - 12. Responsible Consumption and Production
   - Concerns of extraction and use of resources (environmental, material, natural)
