@@ -25,7 +25,8 @@ education, quality, leaning, school, university, college, academic, vocational, 
 ### Not to be confused with
 
 - 5. Gender Equality
-  - Concerns gender equality in various areas, not just education (specifically on reproductive health)
+  - Concerns broader gender equality
+
 
 Remember, many projects will cover more than one Goal, but to be tagged as Goal 4 they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
