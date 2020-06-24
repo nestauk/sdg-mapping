@@ -10,7 +10,7 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - End hunger
 - Access to food for all people, in particular the poor and people in vulnerable situations
 - Ending all forms of malnutrition
-- Increase agricultural productivity and incomes of small-scale food producers
+- Agricultural productivity and incomes of small-scale food producers
 - Access to land, knowledge and technology etc. for farmers
 - Sustainable and resilient food production systems
 - Climate adaptation in agriculture
