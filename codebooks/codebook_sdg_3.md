@@ -18,9 +18,6 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Universal healthcare and universal access to sexual and reproductive health-care services*
 - Access to health-care services*
 
-
-To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
-
 * There are specific goals for consequences of consumption and production, gender and reducing inequality. Please only label projects `Yes` if they mainly relate to these areas in the context of state spending.
 
 ### Key terms (non-exhaustive)
