@@ -22,9 +22,17 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 * ICT and other technology for the empowerment of women
 * Policies and legislation for gender equality
 
-*Goal 5 does not refer to people who transgender, non-binary or intersex, but only to women and girls. For this exercise, we consider LGBT+ rights to be covered in Goal 10. Reduced Inequalities. Depending on the exact identity of the subjects of the research, you may make your best judgement to classify the project. For your own interest, [Stonewall have produced a guide](https://www.stonewall.org.uk/system/files/sdg-guide.pdf) that makes recommendations on enhancing LGBT rights through the SDGs.
+*Goal 5 does not refer to people who are transgender, non-binary or intersex, but only to women and girls. For this exercise, we consider LGBT+ rights to be covered in Goal 10. Reduced Inequalities. Depending on the exact identity of the subjects of the research, you may make your best judgement to classify the project. For your own interest, [Stonewall have produced a guide](https://www.stonewall.org.uk/system/files/sdg-guide.pdf) that makes recommendations on enhancing LGBT rights through the SDGs.
 
-**Projects about female health and health conditions do not count towards Goal 5, unless they are specifically about improving _access_ to sexual and reproductive health.
+**Projects about female health and health conditions _do not_ count towards Goal 5, unless they are specifically about improving _access_ to sexual and reproductive health. Female health issues more broadly are covered by Goal 3. Good Health and Well-being.
+
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 ### Key terms (non-exhaustive)
 abortion, adoption, artificial insemination, assisted reproductive technology, birth control, body privilege, breastfeeding and hiv, bride kidnapping, castration, casual sex, child marriage, contraceptive, defeminization, discrimination, divorce settlement, domestic violence, empower women, equal pay, family law, female circumcision, female education, female sex tourism, forced prostitution, gender bias, gender equality, genderless language, genital mutilation, misogyny, partner violence, rape culture, sex education, sexual rights, tampon tax, women in government, women's leadership
@@ -37,8 +45,6 @@ abortion, adoption, artificial insemination, assisted reproductive technology, b
 - 10. Reduced inequalities
 	- Covers broader rights around inequality, including LGBT+ rights
 
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 5 they must include the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
-
 ### Examples
 
 | Project description                                      | Is Goal 5? |
@@ -49,13 +55,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Social protection schemes for all workers                | No         |
 | Study of changing male attitudes towards domestic labour | Yes        |
 | Study on labour rights for low-income families           | No         |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
 
 
 ---

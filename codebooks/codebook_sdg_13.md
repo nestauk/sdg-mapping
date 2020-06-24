@@ -11,9 +11,17 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 * Risk reduction for climate hazards - wildfires, droughts, floods, extreme weather etc.
 * Climate mitigation and adaptation policy, strategy and planning
 * Education and public awareness on climate mitigation, adaptation, impacts and readiness
-* Fund mitigation measures in low-income countries
+* Funding mitigation measures
 
 *We are including climate-related meteorological studies and other works that generate knowledge about modern climate change
+
+### Labelling Tips
+
+* Many projects will cover more than one Goal, but to be tagged as this Goal they must include at least one of the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
+
+* The documents are research projects so it may not be clear whether they actually contribute to achieving a Goal. That is fine - we are interested work that either contributes to achieving a goal or generates knowledge directly related to the Goal.
+
+* In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
 
 ### Key terms (non-exhaustive)
 extreme weather, temperature, climate change, climate variability, adaptation, climate resilience, atmospheric exchange, meteorology, flood, drought, wildfire, coastal inundation, early warning, forecasting, risk reduction, greenhouse gas budget, nationally determined contribution (NDC), impact assessment, global warming, co2 emissions, projection, sea level rise, climatic causes, ocean acidification
@@ -23,7 +31,6 @@ extreme weather, temperature, climate change, climate variability, adaptation, c
 - 7. Affordable and Clean Energy
 	- This covers the general development and deployment of low carbon technology whereas Goal 13 covers policy and other high level decisions
 
-Remember, many projects will cover more than one Goal, but to be tagged as Goal 13 they must include the Key Concepts above. Further information on other goals can be found [here](https://unstats.un.org/sdgs/metadata/).
 
 ### Examples
 
@@ -37,14 +44,6 @@ Remember, many projects will cover more than one Goal, but to be tagged as Goal 
 | Measuring the ozone layer                                  | No          |
 | High level study of national approach to mitigation        | Yes         |
 | New construction methods for nuclear energy                | No          |
-
-In some cases the distinction between `Yes` and `No` will not be 100% clear. That's fine. Just use your best judgement. You can always use the `Skip` button (although it is best to try to make a decision).
-
-
-### Things to Remember
-
-The documents that we are labelling are research projects so it may not be clear whether they actually contribute to achieving a goal. That is fine - we are interested in knowing whether work is closely related to the goal, contributes knowledge to understanding the concepts of the goal, or If it satisfies any of these, please label it with `Yes`.
-
 
 ---
 
