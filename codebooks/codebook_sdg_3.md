@@ -12,7 +12,8 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Reduce the global maternal mortality ratio
 - Reduce the number deaths and illnesses from hazardous chemicals and air, and water and soil pollution*
 - End the epidemics of diseases and premature deaths caused by such diseases
-- Prevention and treatment of substance abuse
+- Prevention and treatment of substance abuse (incl. tobacco)
+
 - Support of the research and development of vaccines and medicines
 - Universal healthcare and universal access to sexual and reproductive health-care services*
 - Access to health-care services*
