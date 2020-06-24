@@ -10,7 +10,8 @@
 - Quality and free pre-primary childhood development, care and education
 - Access to tertiary education and university
 
-- Equal access for men and women affordable vocational, technical and tertiary education
+- Equal access for men and women to vocational, technical and tertiary education
+
 - Eliminate gender disparities in access to education and vocational training and for the vulnerable*
 - Increase in number of youth and adults who have relevant skills for employment and entrepreneurship
 - Achieve literacy and numeracy amongst youth and some adults
