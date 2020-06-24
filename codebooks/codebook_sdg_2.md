@@ -13,6 +13,8 @@ To be labelled with `Yes`, a project should explicitly or implicitly refer to at
 - Increase agricultural productivity and incomes of small-scale food producers
 - Access to land, knowledge and technology etc. for farmers
 - Sustainable and resilient food production systems
+- Climate adaptation in agriculture
+- Soil quality
 - Maintain diverse agricultural ecosystem including diversity of seeds, plants, genetics etc.
 - Agricultural research related to food/human consumption (not biofuels, etc)
 - Investment in agricultural and rural infrastructure
