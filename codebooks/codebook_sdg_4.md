@@ -19,7 +19,8 @@
 
 - Learning knowledge and skills to promote sustainable development such as human rights, gender equality, promotion of cultural diversity, etc* 
 
-- increase the supply of qualified teachers and scholarships available to developing countries
+- Supply of qualified teachers and scholarships available to developing countries
+- Education facilities that are safe and child, disability and gender sensitive
 
 To be labelled with `Yes`, a project should explicitly or implicitly refer to at least one of these. More detail on the specific targets is provided below.
 
