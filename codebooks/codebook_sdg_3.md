@@ -40,7 +40,8 @@ For example:
 | Project description                                                                        | Is Goal 3? |
 |--------------------------------------------------------------------------------------------|------------|
 | Project discussing new techniques for creating prostheses for deafness                                     | Yes        |
-| Project discussing imagining strategies on patients with intermediate risk of coronary artery disease                                    | Yes        |
+| Project discussing imaging strategies on patients with intermediate risk of coronary artery disease                                    | Yes        |
+
 | Project discussing clot formation as a potential diagnostic tool for Alzheimer's disease                                     | Yes        |
 | Project discussing a early-warning system for agriculture-related diseases such as wheat rust diseases                                    | No         |
 | Project discussing metabolic interactions in oceanic photosymbioses                                    | No         |
