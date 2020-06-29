@@ -1,0 +1,10 @@
+{
+  "raw": {
+    "sheet_name": "Raw Data (trends)",
+    "header": "0"
+    },
+  "report": {
+    "sheet_name": "SDR2019 Data",
+    "header": "1"
+    }
+ }

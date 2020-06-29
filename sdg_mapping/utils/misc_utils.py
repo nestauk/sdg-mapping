@@ -1,5 +1,5 @@
 import re
-import urllib
+from urllib.request import urlretrieve
 
 def camel_to_snake(name):
     '''Convert lowerCamelCase or upperCamelCase to snake_case
@@ -15,4 +15,4 @@ def fetch(url, fout):
     '''fetch
     Fetches a file from the web and saves to a location on disk.
     '''
-    urllib.request.urlretrieve(url, fout)
+    urlretrieve(url, fout)

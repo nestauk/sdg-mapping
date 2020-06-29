@@ -13,6 +13,7 @@ dependencies:
   - ipython
   - scikit-learn
   - descartes
+  - xlrd
   # Put any conda dependencies here
 
   - pip:
