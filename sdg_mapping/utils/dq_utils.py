@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def missing_values(data,col = True):
     """missing_values
     Calculates the number of missing values (across rows or columns)
