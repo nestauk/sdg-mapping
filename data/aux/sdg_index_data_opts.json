@@ -1,10 +1,21 @@
 {
-  "raw": {
-    "sheet_name": "Raw Data (trends)",
-    "header": "0"
+    "2016": {
+        "report": {"sheet_name": "Sheet1"}
     },
-  "report": {
-    "sheet_name": "SDR2019 Data",
-    "header": "1"
-    }
+    "2017": {
+        "report": {"sheet_name": "SDG INDEX 2017 DATA", "na_values": "n.d."}
+    },
+    "2018": {
+        "report": {"sheet_name": "Sheet1", "header": "1"}
+    },
+    "2019": {
+        "raw": {"sheet_name": "Raw Data (trends)", "na_values": "."},
+        "report": {"sheet_name": "SDR2019 Data", "header": "1", "na_values": "."},
+        "codebook": {"sheet_name": "Codebook"}
+    },
+    "2020": {
+        "raw": {"sheet_name": "Raw Trend Data", "na_values": "."},
+        "report": {"sheet_name": "SDR2020 Data", "na_values": "."},
+        "codebook": {"sheet_name": "Codebook"}
  }
+}
