@@ -6,11 +6,16 @@ import os
 import json
 
 from sdg_mapping import project_dir
+from sdg_mapping.utils.misc_utils import _decode_json_int
 
-with open(f'{project_dir}/data/aux/sdg_index_data_opts.json', 'r') as f:
-    index_type_dict = json.load(f)
-    for i in index_type_dict.keys():
-        index_type_dict[i]["header"] = int(index_type_dict[i]["header"])
+def _load_read_opts():
+    """_load_read_opts
+    Loads dict of kwargs for `pd.read_excel` when reading SDG Index files.
+    """
+    with open(f'{project_dir}/data/aux/sdg_index_data_opts.json', 'r') as f:
+        index_read_opts = json.load(f, object_hook=_decode_json_int)
+    return index_read_opts
+
 
 def sdg_index_file_path(year):
     """sdg_index_file_path
@@ -24,27 +29,29 @@ def sdg_index_file_path(year):
 
     """
     fname = f'{year}_sdg_index.xlsx'
-    return f'{project_dir}/data/raw/{fname}'
+    return f'{project_dir}/data/raw/sdg_index/{fname}'
 
 
-def read_workbook(data_path, index_type):
+def read_workbook(data_path, year, index_type):
     """read_workbook
     To read in the Excel workbook- which includes the raw and processed
     Excel spreadsheets that can be used for the SDG index analysis
 
     Args:
         data_path (str): File path of an SDG Index dataset
+        year (int): Year of SDG Index.
         index_type (str): Index of dataset needed; raw or report
     Returns:
         (pd.DataFrame): Parsed SDG Index data
     """
-    read_opts = index_type_dict[index_type]
-    df = pd.read_excel(data_path, na_values='.', **read_opts)
+    read_opts = _load_read_opts()[year][index_type]
+    df = pd.read_excel(data_path, **read_opts)
     return df
 
-def parse_2019_sdg_indicator(dataset):
-    """parse_2019_sdg_index
-    To clean SDG (2019) Index data
+
+def _map_dashboard_symbols(df):
+    """_map_dashboard_symbols
+    Map progress symbols and colours from SDG Index dashboard to human readable strings.
 
     Args:
         dataset (pd.DataFrame): SDG Index dataframe
@@ -59,16 +66,66 @@ def parse_2019_sdg_indicator(dataset):
     trend_map = maps['trend_map']
     achievement_map = maps['achievement_map']
 
-    sdg_index_19_df = dataset
-    trend_columns = [i for i in sdg_index_19_df.columns if 'Trend' in i]
-    dashboard_columns = [i for i in sdg_index_19_df.columns if (('Dashboard' in i) and ('Goal' in i))]
+    trend_columns = [i for i in df.columns if 'Trend' in i]
+    dashboard_columns = [i for i in df.columns if (('Dash' in i) and ('Goal' in i))]
 
-    for j in trend_columns:
-        sdg_index_19_df[j] = sdg_index_19_df[j].map(trend_map)
-    for j in dashboard_columns:
-        sdg_index_19_df[j] = sdg_index_19_df[j].map(achievement_map)
+    for col in trend_columns:
+        df[col] = df[col].map(trend_map)
+    for col in dashboard_columns:
+        df[col] = df[col].map(achievement_map)
 
-    return sdg_index_19_df
+    return df
+
+
+def _parse_raw(df, year):
+    """_parse_raw
+    Currently returns raw data as is.
+    """
+    return df
+
+
+def _parse_report(df, year):
+    """_parse_report
+    Parse data and map values for the SDG Index report worksbook sheet.
+
+    Args:
+        df (pd.DataFrame): Raw SDG Index report table.
+        year (int): Year of the index. 
+
+    Returns:
+        df (pd.DataFrame): Clean data.
+    """
+    df = _map_dashboard_symbols(df)
+    df.columns = [c.lower().replace(" ", "_") for c in df.columns]
+    if year == 2017:
+        old = "average_score_on_sdg"
+        new = "goal_"
+        df.columns = [c.replace(old, new) + "_score" for c in df.columns]
+    if year == 2020:
+        df.columns = [c.replace(":", "") for c in df.columns]
+    df = df[[c for c in df.columns if 'unnamed' not in c]]
+    return df
+
+
+def _parse_codebook(df, year):
+    """_parse_codebook
+    Parse codebook data for SDG Index workbook sheet.
+
+    Args:
+        df (pd.DataFrame): Raw data from codebook sheet.
+        year (int): Year of the index.
+
+    Returns:
+        df (pd.DataFrame): Clean codebook.
+    """
+    df.columns = [c.replace('(= ', '(=') for c in df.columns]
+    if year == 2019:
+        df.columns = [c.lower().replace(" ", "_") for c in df.columns]
+    elif year == 2020:
+        df.columns = [c.lower() for c in df.columns]
+    return df
+
+
 
 def load_sdg_index(year, index_type):
     """load_sdg_index
@@ -77,18 +134,29 @@ def load_sdg_index(year, index_type):
 
     Args:
         year (str): Year of SDG Index datasets
-        index_type (str): Index of dataset needed; raw or report
+        index_type (str): Index of dataset needed; options are raw, report or 
+            codebook.
 
     Returns:
         (pd.DataFrame): Cleaned SDG Index data
 
     """
 
+    if year < 2016:
+        raise Exception('SDG Index Reports are only available from 2016 onwards' )
+
+    if (index_type in ['raw', 'codebook']) and (year < 2019):
+        raise Exception(f'{index_type.title()} data only available from 2019 onwards.')
+
     fin = sdg_index_file_path(year)
+    df = read_workbook(fin, year, index_type)
 
-    df = read_workbook(fin,index_type)
-    if (year == 2019) and (index_type == 'report'):
-        df = parse_2019_sdg_indicator(df)
-    df.columns = [i.lower().replace(" ", "_") for i in df.columns]
-
+    if index_type == 'report':
+        df = _parse_report(df, year)
+    elif index_type == 'raw':
+        df = _parse_raw(df)
+    if index_type == 'codebook':
+        df = _parse_codebook(df, year)
+    df = df.rename(columns={'id': 'iso_3_code'})
     return df
+

@@ -1,3 +1,7 @@
 {
-  "2019": "https://github.com/sdsna/2019GlobalIndex/raw/master/2019GlobalIndexResults.xlsx"
+  "2016": "https://github.com/sdsna/2016GlobalIndex/raw/master/2016GlobalIndexResults.xlsx",
+  "2017": "https://github.com/sdsna/2017GlobalIndex/raw/master/2017GlobalIndexResults.xlsx",
+  "2018": "https://github.com/sdsna/2018GlobalIndex/raw/master/2018GlobalIndexResults.xlsx",
+  "2019": "https://github.com/sdsna/2019GlobalIndex/raw/master/2019GlobalIndexResults.xlsx",
+  "2020": "https://github.com/sdsna/SDR2020/raw/master/SDR2020Database.xlsx"
 }
