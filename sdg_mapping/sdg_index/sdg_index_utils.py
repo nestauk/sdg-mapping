@@ -77,7 +77,7 @@ def _map_dashboard_symbols(df):
     return df
 
 
-def _parse_raw(df, year):
+def _parse_raw(df):
     """_parse_raw
     Currently returns raw data as is.
     """
@@ -98,11 +98,14 @@ def _parse_report(df, year):
     df = _map_dashboard_symbols(df)
     df.columns = [c.lower().replace(" ", "_") for c in df.columns]
     if year == 2017:
+        df = df.rename(columns={'iso3': 'iso_3_code'})
         old = "average_score_on_sdg"
         new = "goal_"
-        df.columns = [c.replace(old, new) + "_score" for c in df.columns]
+        replace = {c: c.replace(old, new) + '_score' for c in df.columns if old in c}
+        df = df.rename(columns=replace)
     if year == 2020:
         df.columns = [c.replace(":", "") for c in df.columns]
+        df = df.rename(columns={'id': 'iso_3_code'})
     df = df[[c for c in df.columns if 'unnamed' not in c]]
     return df
 
@@ -157,6 +160,5 @@ def load_sdg_index(year, index_type):
         df = _parse_raw(df)
     if index_type == 'codebook':
         df = _parse_codebook(df, year)
-    df = df.rename(columns={'id': 'iso_3_code'})
     return df
 
