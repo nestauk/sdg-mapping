@@ -89,7 +89,7 @@ def load_cordis_projects(fp_name):
     return df
 
 
-def load_all_cordis_projects(resource_name):
+def load_all_cordis_projects():
     '''load_all_cordis_projects
     Loads projects for all CORDIS Framework Programmes as a single DataFrame.
 
@@ -102,8 +102,8 @@ def load_all_cordis_projects(resource_name):
     fps = ['h2020', 'fp7', 'fp6', 'fp5', 'fp4', 'fp3', 'fp2', 'fp1']
     dfs = []
     for fp in fps:
-        dfs.append(load_cordis_projects(fp, resource_name))
-    return pd.concat(dfs, axis=1)
+        dfs.append(load_cordis_projects(fp))
+    return pd.concat(dfs)
 
 
 def parse_cordis_sdgs(df, prediction_type):
